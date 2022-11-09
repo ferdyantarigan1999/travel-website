@@ -1,0 +1,505 @@
+* {padding: 0; margin: 0}
+
+
+header {width: 1516px; background: #ffff; overflow: visible;}
+header .bungkus  {margin-left:200px; height: 105px;margin-right: 200px; display: flex;}
+header .bungkus img {height: 107px;}
+header .bungkus p {float: left;font-size: 30px; margin-left: 20px; margin-top: 20px;margin-right: 250px;}
+header .bungkus .right menu nav {float: left; display: flex;}
+header .bungkus .right nav {float: left; font-size: 15px; position: relative; height: 100px; line-height: 100px;filter:brightness(100%); }
+header .right nav ul li {float: left; list-style: none; background:#ffff;transition: all 0.5s;}
+header .right nav ul li a {margin-right: 15px; text-decoration: none; padding: 3px 15px;transition: all 0.5s;color: #121212;}
+header .right nav ul li a i {transform: rotate(45deg); font-size: 10px;}
+header .right nav ul li ul {display: none;transition: all 0.5s}
+header .right nav ul li ul li i {font-size: 10px;}
+header .right nav ul li:hover > ul {display: block;line-height: 40px;border-top: 5px solid #4883ff;}
+header .right nav ul li ul {position:absolute;}
+header .right nav ul li ul li {float: none; position: relative;border-bottom: 1px solid #dddd;}
+header .right nav ul li a:hover {color: blue;}
+header .right nav ul ul ul {left: 100%;top: 0; width: 200px}
+
+
+
+
+.spanduk .banner img {width: 1516px;}
+.spanduk .caption {margin-left: 350px}
+.spanduk .caption .line {position: absolute; top: 350px;}
+.spanduk .caption .line h1 {color: #ffff;}
+.spanduk .caption .line h2 {font-size: 42px; color: #ffff;}
+.spanduk .caption .line span {font-size: 22px; color: #ffff; padding-top: 10px;}
+
+.spanduk .caption .buttom {position: absolute; top: 550px;transition: all 0.5s; font-size: 15px; font-weight: 500;padding: 10px 16px; color:#ffff;background:#4883ff}
+.spanduk .caption .buttom:hover {background: transparent; border: 1px solid #4883ff; color: #4883ff;}
+
+.spanduk .formulir {margin-left: 350px; margin-right: 350px;}
+.spanduk .formulir .isian {position: absolute; top: 865px;background: #ffff;border-bottom: 5px solid #4883ff; padding: 15px; }
+.spanduk .formulir .isian .inputtext {height: 50px;font-size: 15px;border: none;border-right: 1px solid #dddd; margin-right: 15px;}
+.spanduk .formulir .isian select {height: 50px;font-size: 15px;border: none;border-right: 1px solid #dddd; padding-right: 15px;color: #9a9a9a}
+.spanduk .formulir .isian select:clicked {border: none;}
+.spanduk .formulir .isian .tombol {height: 50px; line-height: 35px;background: #4883ff;margin-left: 10px;padding: 0 40px 0 40px;
+ border: 2px solid #4883ff;font-size: 17px; color:#ffff;letter-spacing: 0.5px; transition: all 0.5s;}
+.spanduk .formulir .isian .tombol:hover {background: transparent; color: #4883ff;border: 2px solid #4883ff  }
+
+
+.tulisan {text-align: center;margin-top: 100px; width: 1517px;}
+.tulisan span {font-size: 17px;color: #4883ff;}
+.tulisan h2 {font-size: 23px; margin-top: 14px;color:#232323;}
+
+
+.bungkusan2 {margin-top: 80px;padding-bottom: 80px;width: 1517px;}
+.bungkusan2 .down2 {overflow: hidden; margin-top: 40px;}
+.bungkusan2 .down2 .left2 {width: 450px; float:left;}
+.bungkusan2 .down2 .left2 img {width: 100px; float:left;padding: 10px;}
+.bungkusan2 .down2 .left2 h1,p {margin-right: 10px; font-size: 15px; padding-left: 10px;}
+.bungkusan2 .down2 .left2 h1 {font-size: 15px;}
+.bungkusan2 .down2 .center2 {width: 450px; float:left;}
+.bungkusan2 .down2 .center2 img {width: 100px; float:left;padding: 10px;}
+.bungkusan2 .down2 .center2 h1,p {margin-right: 10px; font-size: 15px; padding-left: 10px;}
+.bungkusan2 .down2 .center2 h1 {font-size: 15px;}
+.bungkusan2 .down2 .right2 {width: 450px; float:left;}
+.bungkusan2 .down2 .right2 img {width: 100px ;height: 100px; float:left;padding: 10px;}
+.bungkusan2 .down2 .right2 h1,p {margin-right: 10px; font-size: 15px; padding-left: 10px;}
+.bungkusan2 .down2 .right2 h1 {font-size: 15px;}
+
+
+
+.bungkusan3 {background:#f4f4f4; padding-top: 80px;width: 1517px;}
+.bungkusan3 .tulisan2 {text-align: center;}
+.bungkusan3 .tulisan2 span {font-size: 17px;color: #4883ff;}
+.bungkusan3 .tulisan2 h2 {font-size: 23px; margin-top: 14px;color:#232323;}
+.bungkusan3 .tumbnail1 {margin-left: 100px;}
+
+.bungkusan3 .foto {display:flex;padding-top: 80px; padding-bottom: 80px;}
+
+.bungkusan3 .tumbnail1 {background: #ffff; box-shadow: 2px 2px 1px rgba(0,0,0,0.4);}
+.bungkusan3 .tumbnail1 .teks1 {width: 330px;padding: 20px 20px 20px 20px;margin-bottom: 20px;border-bottom: 1px solid #dddd;}
+.bungkusan3 .tumbnail1 .teks1 h1 {font-size: 19px;}
+.bungkusan3 .tumbnail1 .teks1 span {font-size: 13px; color: #4883ff;}
+.bungkusan3 .tumbnail1 .teks1 p {color: #7a7a7a;padding-top: 20px;}
+.bungkusan3 .tumbnail1 .tombol2 {display: flex; padding-bottom: 30px;}
+.bungkusan3 .tumbnail1 .tombol2 .sebelah_kiri a {text-decoration: none; color:#7a7a7a; padding: 20px 20px 20px 20px; border-right: 1px solid #dddd;}
+.bungkusan3 .tumbnail1 .tombol2 .sebelah_kiri a:hover {color: #4883ff;}
+.bungkusan3 .tumbnail1 .tombol2 .sebelah_kanan a {margin-left: 15px;text-decoration: none; color:#7a7a7a;} 
+.bungkusan3 .tumbnail1 .tombol2 .sebelah_kanan a:hover {color: #4883ff;}
+
+.bungkusan3 .tumbnail2 {background: #ffff;}
+.bungkusan3 .tumbnail2 {margin-left: 30px;box-shadow: 2px 2px 1px rgba(0,0,0,0.4);}
+.bungkusan3 .tumbnail2 .teks2 {width: 330px;padding: 20px 20px 20px 20px;margin-bottom: 20px; border-bottom: 1px solid #dddd;}
+.bungkusan3 .tumbnail2 .teks2 h1 {font-size: 19px;}
+.bungkusan3 .tumbnail2 .teks2 span {font-size: 13px; color: #4883ff;}
+.bungkusan3 .tumbnail2 .teks2 p {color: #7a7a7a;padding-top: 20px;}
+.bungkusan3 .tumbnail2 .tombol3 {display: flex;}
+.bungkusan3 .tumbnail2 .tombol3 .sebelah_kiri2 a {text-decoration: none; color:#7a7a7a; padding: 20px 20px 20px 20px; border-right: 1px solid #dddd; }
+.bungkusan3 .tumbnail2 .tombol3 .sebelah_kiri2 a:hover {color: #4883ff;}
+.bungkusan3 .tumbnail2 .tombol3 .sebelah_kanan2 a {margin-left: 15px;color:#7a7a7a; text-decoration: none; }
+.bungkusan3 .tumbnail2 .tombol3 .sebelah_kanan2 a:hover {color: #4883ff;}
+
+.bungkusan3 .tumbnail3 {background: #ffff;}
+.bungkusan3 .tumbnail3 {margin-left: 30px;box-shadow: 2px 2px 1px rgba(0,0,0,0.4);}
+.bungkusan3 .tumbnail3 .teks3 {width: 330px;padding: 20px 20px 20px 20px;margin-bottom: 20px; border-bottom: 1px solid #dddd;}
+.bungkusan3 .tumbnail3 .teks3 h1 {font-size: 19px;}
+.bungkusan3 .tumbnail3 .teks3 span {font-size: 13px; color: #4883ff;}
+.bungkusan3 .tumbnail3 .teks3 p {color: #7a7a7a;padding-top: 20px;}
+.bungkusan3 .tumbnail3 .tombol4 {display: flex;}
+.bungkusan3 .tumbnail3 .tombol4 .sebelah_kiri3 a {text-decoration: none; color:#7a7a7a; padding: 20px 20px 20px 20px; border-right: 1px solid #dddd; }
+.bungkusan3 .tumbnail3 .tombol4 .sebelah_kiri3 a:hover {color: #4883ff;}
+.bungkusan3 .tumbnail3 .tombol4 .sebelah_kanan3 a {margin-left: 15px;color:#7a7a7a; text-decoration: none; }
+.bungkusan3 .tumbnail3 .tombol4 .sebelah_kanan3 a:hover {color: #4883ff;}
+
+.bungkusan4 {padding-top: 80px;width: 1517px;}
+.bungkusan4 .tulisan3 {text-align: center;}
+.bungkusan4 .tulisan3 span {font-size: 17px;color: #4883ff;}
+.bungkusan4 .tulisan3 h2 {font-size: 23px; margin-top: 14px;color:#232323;}
+
+.bungkusan4 .service {display: flex;margin-left: 250px;margin-right: 250px; padding-top: 80px;}
+.bungkusan4 .service .service1 {width: 350px; border: 1px solid #ddd; padding: 50px 30px;text-align: center;border-radius: 10px;margin-right: 30px;}
+.bungkusan4 .service .service1 h2 {font-size: 19px;margin-top: 30px; margin-bottom: 15px;}
+.bungkusan4 .service .service1 p {color: #7a7a7a;}
+
+.bungkusan4 .service .service2 {width: 350px; border: 1px solid #ddd; padding: 50px 30px;text-align: center;border-radius: 10px;margin-right: 30px;}
+.bungkusan4 .service .service2 h2 {font-size: 19px;margin-top: 30px; margin-bottom: 15px;}
+.bungkusan4 .service .service2 p {color: #7a7a7a;}
+
+.bungkusan4 .service .service3 {width: 350px; border: 1px solid #ddd; padding: 50px 30px;text-align: center;border-radius: 10px;margin-right: 30px;}
+.bungkusan4 .service .service3 h2 {font-size: 19px;margin-top: 30px; margin-bottom: 15px;}
+.bungkusan4 .service .service3 p {color: #7a7a7a;}
+
+.penjelasan {margin-top: 60px;margin-left: 250px;margin-right: 250px;border-top: 1px solid #dddd;padding-top: 60px;padding-bottom: 60px; display: flex;}
+.penjelasan .bagian1 {width: 400px;margin-left: 30px;margin-right: 50px;}
+.penjelasan .bagian1 h2 {font-size: 19px; margin-bottom: 25px;}
+.penjelasan .bagian1 p {font-size: 13px; color: #7a7a7a; }
+.penjelasan .bagian1 .kotak {font-size: 15px;padding-top: 30px;color:#ffff;background:#4883ff ;
+ width: 100px;padding: 10px 16px;margin-top: 20px;transition: all 0.5s;}
+.penjelasan .bagian1 .kotak a {text-decoration: none; color:#ffff;} 
+.penjelasan .bagian1 .kotak a:hover {color: #4883ff;}
+.penjelasan .bagian1 .kotak:hover {background: transparent; border: 1px solid #4883ff; color: #4883ff;}
+
+.penjelasan .bagian2 .pemilihan ul {list-style: none; width: 400px}
+.penjelasan .bagian2 .pemilihan ul li h2 {font-size: 17px;border: 0.5px solid #dddd;padding: 20px 20px;}
+.penjelasan .bagian2 .pemilihan ul li input {float: right;margin-left: 150px;padding-bottom: 15px;}
+.penjelasan .bagian2 .pemilihan ul p {color: #7a7a7a; border: 0.5px solid #dddd;padding: 20px 20px; width: 355px;}
+.penjelasan .bagian2 .pemilihan ul p {display: none;}
+
+
+.bungkusan5 {padding-bottom: 60px;}
+
+.bungkusan6 {padding-bottom: 60px; width: 1517px;}
+.bungkusan6 .tulisan4 {text-align: center;}
+.bungkusan6 .tulisan4 span {font-size: 17px;color: #4883ff;}
+.bungkusan6 .tulisan4 h2 {font-size: 23px; margin-top: 14px;color:#232323;padding-bottom: 60px;}
+
+.bungkusan6 .harga {margin-left: 250px; margin-right: 250px; display: flex;}
+.bungkusan6 .harga .harga1 .atas1 {background: #4883ff;width: 250px; padding: 30px; 
+border-top-right-radius: 10px;border-top-left-radius: 10px; text-align: center; color: #ffff;margin-right: 30px;}
+.bungkusan6 .harga .harga1 .atas1 h4 {padding-bottom: 20px;}
+
+
+.bungkusan6 .harga .harga2 .atas2 {background: #4883ff;width: 250px; padding: 30px; 
+border-top-right-radius: 10px;border-top-left-radius: 10px; text-align: center; color: #ffff;margin-right: 30px;}
+.bungkusan6 .harga .harga2 .atas2 h4 {padding-bottom: 20px;}
+
+
+
+.bungkusan6 .harga .harga3 .atas3 {background: #4883ff;width: 250px; padding: 30px; 
+border-top-right-radius: 10px;border-top-left-radius: 10px; text-align: center; color: #ffff;margin-right: 30px;}
+.bungkusan6 .harga .harga3 .atas3 h4 {padding-bottom: 20px;}
+
+
+.bungkusan6 .harga .harga1 .bawah1 {width: 250px;background: #dddd;padding: 30px;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;}
+.bungkusan6 .harga .harga1 .bawah1 ul li {list-style: none;padding-bottom: 30px; text-align: center;}
+.bungkusan6 .harga .harga1 .bawah1 ul li a {text-decoration: none;}
+.bungkusan6 .harga .harga1 .klik1 {background:#4883ff;width:100px;text-align: center;padding: 16px 10px; margin-left: 60px;margin-top:30px;transition: all 0.5s;}
+.bungkusan6 .harga .harga1 .klik1 a {text-decoration: none; color: #ffff;}
+.bungkusan6 .harga .harga1 .klik1:hover {background: transparent;border: 0.5px solid #4883ff;}
+.bungkusan6 .harga .harga1 .klik1 a:hover {color: #4883ff;}
+
+
+.bungkusan6 .harga .harga2 .bawah2 {width: 250px;background: #dddd;padding: 30px;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;}
+.bungkusan6 .harga .harga2 .bawah2 ul li {list-style: none;padding-bottom: 30px; text-align: center;}
+.bungkusan6 .harga .harga2 .bawah2 ul li a {text-decoration: none;}
+.bungkusan6 .harga .harga2 .klik2 {background:#4883ff;width:100px;text-align: center;padding: 16px 10px; margin-left: 60px;margin-top:30px;transition: all 0.5s;}
+.bungkusan6 .harga .harga2 .klik2 a {text-decoration: none; color: #ffff;}
+.bungkusan6 .harga .harga2 .klik2:hover {background: transparent;border: 0.5px solid #4883ff;}
+.bungkusan6 .harga .harga2 .klik2 a:hover {color: #4883ff;}
+
+.bungkusan6 .harga .harga3 .bawah3 {width: 250px;background: #dddd;padding: 30px;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;}
+.bungkusan6 .harga .harga3 .bawah3 ul li {list-style: none;padding-bottom: 30px; text-align: center;}
+.bungkusan6 .harga .harga3 .bawah3 ul li a {text-decoration: none;}
+.bungkusan6 .harga .harga3 .klik3 {background:#4883ff;width:100px;text-align: center;padding: 16px 10px; margin-left: 60px;margin-top:30px;transition: all 0.5s;}
+.bungkusan6 .harga .harga3 .klik3 a {text-decoration: none; color: #ffff;}
+.bungkusan6 .harga .harga3 .klik3:hover {background: transparent;border: 0.5px solid #4883ff;}
+.bungkusan6 .harga .harga3 .klik3 a:hover {color: #4883ff;}
+.maps {padding-top: 80px;}
+
+.bungkusan7 {padding-top: 60px;padding-bottom: 60px; width: 1516px; border-bottom: 1px solid #dddd;}
+.bungkusan7 .tulisan5 {text-align: center;}
+.bungkusan7 .tulisan5 span {font-size: 17px;color: #4883ff;}
+.bungkusan7 .tulisan5 h2 {font-size: 23px; margin-top: 14px;margin-bottom:50px; color:#232323;}
+.bungkusan7 .tulisan5 a {text-decoration: none;background:#4883ff;color: #ffff; padding: 10px 15px;transition: all 0.5s;}
+.bungkusan7 .tulisan5 a:hover {background: transparent; border: 1px solid #4883ff; color: #4883ff;}
+
+.bungkusan8 {margin-top: 60px;margin-left: 250px; margin-right: 250px; ;display: flex;margin-bottom: 60px;}
+.bungkusan8 .kiri {padding-right: 30px;width: 400px}
+.bungkusan8 .kiri .kiri1 img {padding-bottom: 40px;}
+.bungkusan8 .kiri .bacaan span {font-size: 13px; color:#7a7a7a;}
+
+.bungkusan8 .tengah {width: 300px;}
+.bungkusan8 .tengah .list {padding-top: 50px; display: flex;}
+.bungkusan8 .tengah .list .list1 {padding-right: 70px;}
+.bungkusan8 .tengah .list .list1 ul li {list-style-type:square;padding-bottom: 20px;color:#4883ff;}
+.bungkusan8 .tengah .list .list1 ul li a:hover  {color:#4883ff;}
+.bungkusan8 .tengah .list .list1 ul li a {text-decoration: none; color:#7a7a7a;transition: all 0.5s;}
+.bungkusan8 .tengah .list .list2 ul li {list-style-type:square; padding-bottom: 20px;color:#4883ff;}
+.bungkusan8 .tengah .list .list2 ul li a {text-decoration: none; color:#7a7a7a;transition: all 0.5s;}
+.bungkusan8 .tengah .list .list2 ul li a:hover  {color:#4883ff;}
+
+.bungkusan8 .kanan {width: 300px;padding-left: 30px;}
+.bungkusan8 .kanan  h2 {padding-bottom: 20px;}
+.bungkusan8 .kanan span {color: #7a7a7a;}
+.bungkusan8 .kanan ul li {list-style: none;padding-top: 20px;}
+.bungkusan8 .kanan ul li a{text-decoration: none; color: #4883ff;padding-left: 20px;}
+
+.tambahan {width:100%; text-align: center;}
+.tambahan .tambah1 {padding-bottom: 20px; border-bottom: 0.5px solid red;margin-left:500px; margin-right:500px;}
+.tambahan .tambah2 {padding-top: 20px;color:#7a7a7a;}
+.tambahan .tambah3 {padding-top: 50px;}
+.tambahan .tambah3 .isian1 .inputtext1 {height: 40px;font-size: 15px;border: none;border: 1px solid #dddd; margin-right: 15px; padding-left:20px;}
+.tambahan .tambah3 .isian1 select {height: 40px;font-size: 15px;border: 1px solid #dddd; padding-right: 15px;color: #9a9a9a; margin-right: 20px;box-shadow: -2px -2px 1px rgba(0,0,0,0.4);}
+.tambahan .tambah3 .isian1 .tombol11 {height: 50px; line-height: 35px;background: #4883ff;margin-left: 10px;padding: 0 40px 0 40px;
+ border: 2px solid #4883ff;font-size: 17px; color:#ffff;margin-top: 30px;}
+ 
+ 
+ .tambahan .tambah4 {height: 80px; background:#f4f4f4;padding-top: 20px;margin-top: 50px;margin-bottom: 50px;margin-left:300px; margin-right:300px;}
+.tambahan .tambah4 .tombol12 {height: 50px; line-height: 35px;background: #27ae60;margin-left: 10px;padding: 0 40px 0 40px;
+ border: 2px solid #27ae60;font-size: 17px; color:#ffff;border-radius: 10px;}
+ .tambahan .tambah4 .tombol13 {height: 50px; line-height: 35px;background: #3498db;margin-left: 10px;padding: 0 40px 0 40px;
+ border: 2px solid #3498db;font-size: 17px; color:#ffff;border-radius: 10px;}
+ .tambahan .tambah4 .tombol14 {height: 50px; line-height: 35px;background: #7f8c8d;margin-left: 10px;padding: 0 40px 0 40px;
+ border: 2px solid #7f8c8d;font-size: 17px; color:#ffff;border-radius: 10px;}
+ .tambahan .tambah4 .tombol15 {height: 50px; line-height: 35px;background: #7f8c8d;margin-left: 10px;padding: 0 40px 0 40px;
+ border: 2px solid #7f8c8d;font-size: 17px; color:#ffff;border-radius: 10px;}
+
+.telapak {height: 100px;background: #dddd; width: 1517px;}
+.telapak footer {text-align: center;padding-top: 40px; font-size: 20px; color: #7a7a7a;}
+.telapak footer a {text-decoration: none; color: #4883ff; }
+
+@media screen and (min-width: 1200px)  {
+	header {width: 1475px;}
+	header .bungkus  {margin-left:100px; margin-right: 100px;}
+	.spanduk .banner img {width: 1685px; height: 850px;}
+	.spanduk .caption {margin-left: 450px}
+	.spanduk .formulir {margin-left: 350px; margin-right: 350px;}
+	
+	.tulisan {text-align: center;margin-top: 100px; width: 1685px;}
+	
+	.bungkusan2 {width: 1685px; }
+	.bungkusan2 .down2 {margin-left: 100px;}
+	
+	.bungkusan3 {width: 1685px;}
+	.bungkusan3 .foto {margin-left: 150px;}
+	
+	.bungkusan4 {width: 1685px;}
+	.bungkusan4 .service {margin-left: 350px;margin-right: 350px;}
+	
+	.penjelasan {margin-left: 350px;margin-right: 350px;}
+	.bungkusan5 iframe {width: 1685px; height:540px;}
+	
+	.bungkusan6 {width: 1685px;}
+	.bungkusan6 .harga {margin-left: 350px; margin-right: 350px;}
+	
+	.bungkusan7 {width: 1685px;}
+	
+	.bungkusan8 {margin-left: 350px; margin-right: 350px;}
+	
+	.telapak {width: 1685px;}
+	.maps iframe {width: 1685px;}
+}
+
+
+@media screen and (min-width: 1600px)  {
+	header {width: 1685px;}
+	header .bungkus  {margin-left:300px;}
+	.spanduk .banner img {width: 1685px; height: 850px;}
+	.spanduk .caption {margin-left: 450px}
+	.spanduk .formulir {margin-left: 450px;}
+	
+	.tulisan {text-align: center;margin-top: 100px; width: 1685px;}
+	
+	.bungkusan2 {width: 1685px; }
+	.bungkusan2 .down2 {margin-left: 100px;}
+	
+	.bungkusan3 {width: 1685px;}
+	.bungkusan3 .foto {margin-left: 150px;}
+	
+	.bungkusan4 {width: 1685px;}
+	.bungkusan4 .service {margin-left: 350px;margin-right: 350px;}
+	
+	.penjelasan {margin-left: 350px;margin-right: 350px;}
+	.bungkusan5 iframe {width: 1685px; height:540px;}
+	
+	.bungkusan6 {width: 1685px;}
+	.bungkusan6 .harga {margin-left: 350px; margin-right: 350px;}
+	
+	.bungkusan7 {width: 1685px;}
+	
+	.bungkusan8 {margin-left: 350px; margin-right: 350px;}
+	
+	.telapak {width: 1685px;}
+	.maps iframe {width: 1685px;}
+}
+@media screen and (min-width: 1800px)  {
+	
+	
+	header {width: 1895px;}
+	header .bungkus  {margin-left:400px;}
+	.spanduk .banner img {width: 1895px; height: 850px;}
+	.spanduk .caption {margin-left: 550px}
+	.spanduk .formulir {margin-left: 450px; margin-right: 450px;}
+	
+	.tulisan {text-align: center;margin-top: 100px; width: 1895px;}
+	
+	.bungkusan2 {width: 1895px;}
+	.bungkusan2 .down2 {margin-left: 200px;}
+	
+	.bungkusan3 {width: 1895px;}
+	.bungkusan3 .foto {margin-left: 250px;}
+	
+	.bungkusan4 {width: 1895px;}
+	.bungkusan4 .service {margin-left: 450px;margin-right: 450px;}
+	
+	.penjelasan {margin-left: 450px;margin-right: 450px;}
+	.bungkusan5 iframe {width: 1895px; height:530px;}
+	
+	.bungkusan6 {width: 1895px;}
+	.bungkusan6 .harga {margin-left: 450px; margin-right: 450px;}
+	
+	.bungkusan7 {width: 1895px;}
+	
+	.bungkusan8 {margin-left: 450px; margin-right: 450px;}
+	
+	.telapak {width: 1895px;}
+	.maps iframe {width: 1895px;}
+	
+}
+
+@media screen and (min-width: 2000px)  {
+	header {width: 2020px;}
+	header .bungkus  {margin-left:500px;}
+	.spanduk .banner img {width: 2020px; height: 850px;}
+	.spanduk .caption {margin-left: 650px}
+	.spanduk .formulir {margin-left: 550px; margin-right: 550px;}
+	
+	.tulisan {text-align: center;margin-top: 100px; width: 2020px;}
+	
+	.bungkusan2 {width: 2020px;}
+	.bungkusan2 .down2 {margin-left: 300px;}
+	
+	.bungkusan3 {width: 2020px;}
+	.bungkusan3 .foto {margin-left: 350px;}
+	
+	.bungkusan4 {width: 2020px;}
+	.bungkusan4 .service {margin-left: 550px;margin-right: 550px;}
+	
+	.penjelasan {margin-left: 550px;margin-right: 550px;}
+	.bungkusan5 iframe {width: 2020px; height:520px;}
+	
+	.bungkusan6 {width: 2020px;}
+	.bungkusan6 .harga {margin-left: 550px; margin-right: 550px;}
+	
+	.bungkusan7 {width: 2020px;}
+	
+	.bungkusan8 {margin-left: 550px; margin-right: 550px;}
+	
+	.telapak {width: 2020px;}
+	.maps iframe {width: 2020px;}
+}
+@media screen and (min-width: 2200px)  {
+	header {width: 2275px;}
+	header .bungkus  {margin-left:600px;}
+	.spanduk .banner img {width: 2275px;}
+	.spanduk .caption {margin-left: 750px}
+	.spanduk .formulir {margin-left: 750px; margin-right: 750px; }
+	
+	.tulisan {text-align: center;margin-top: 100px; width: 2275px;}
+	
+	.bungkusan2 {width: 2275px;}
+	.bungkusan2 .down2 {margin-left: 550px;}
+	
+	.bungkusan3 {width: 2275px;}
+	.bungkusan3 .foto {margin-left: 450px;}
+	
+	.bungkusan4 {width: 2275px;}
+	.bungkusan4 .service {margin-left: 650px;margin-right: 650px;}
+	
+	.penjelasan {margin-left: 650px;margin-right: 650px;}
+	.bungkusan5 iframe {width: 2275px;}
+	
+	.bungkusan6 {width: 2275px;}
+	.bungkusan6 .harga {margin-left: 650px; margin-right: 650px;}
+	
+	.bungkusan7 {width: 2275px;}
+	
+	.bungkusan8 {margin-left: 650px; margin-right: 650px;}
+	
+	.telapak {width: 2275px;}
+	.maps iframe {width: 2275px;}
+}
+	
+
+
+@media screen and (min-width: 2500px)  {
+	header {width: 3030px;}
+	header .bungkus  {margin-left:900px;}
+	.spanduk .banner img {width: 3030px;}
+	.spanduk .caption {margin-left: 1000px}
+	.spanduk .formulir {margin-left: 1100px; margin-right: 1100px; }
+	
+	.tulisan {text-align: center;margin-top: 100px; width: 3030px;}
+	
+	.bungkusan2 {width: 3030px;}
+	.bungkusan2 .down2 {margin-left: 900px;}
+	
+	.bungkusan3 {width: 3030px;}
+	.bungkusan3 .foto {margin-left: 850px;}
+	
+	.bungkusan4 {width: 3030px;}
+	.bungkusan4 .service {margin-left: 850px;margin-right: 850px;}
+	
+	.penjelasan {margin-left: 850px;margin-right: 850px;}
+	.bungkusan5 iframe {width: 3030px;}
+	
+	.bungkusan6 {width: 3030px;}
+	.bungkusan6 .harga {margin-left: 1050px; margin-right: 1050px;}
+	
+	.bungkusan7 {width: 3030px;}
+	
+	.bungkusan8 {margin-left: 950px; margin-right: 950px;}
+	
+	.telapak {width: 3030px;}
+	.maps iframe {width: 3030px;}
+}
+
+@media screen and (min-width: 4000px)  {
+	header {width: 4550px;}
+	header .bungkus  {margin-left:1500px;}
+	.spanduk .banner img {width: 4550px;}
+	.spanduk .caption {margin-left: 1600px}
+	.spanduk .formulir {margin-left: 1800px; margin-right: 1800px;}
+	
+	.tulisan {text-align: center;margin-top: 100px; width: 4550px;}
+	
+	.bungkusan2 {width: 4550px;}
+	.bungkusan2 .down2 {margin-left: 1600px;}
+	
+	.bungkusan3 {width: 4550px;}
+	.bungkusan3 .foto {margin-left: 1600px;}
+	
+	.bungkusan4 {width: 4550px;}
+	.bungkusan4 .service {margin-left: 1600px;margin-right: 1600px;}
+	
+	.penjelasan {margin-left: 1600px;margin-right: 1600px;}
+	.bungkusan5 iframe {width: 4550px;}
+	
+	.bungkusan6 {width: 4550px;}
+	.bungkusan6 .harga {margin-left: 1800px; margin-right: 1800px;}
+	
+	.bungkusan7 {width: 4550px;}
+	
+	.bungkusan8 {margin-left: 1700px; margin-right: 1700px;}
+	
+	.telapak {width: 4550px;}
+	.maps iframe {width: 4550px;}
+}
+
+@media screen and (min-width: 5000px)  {
+	header {width: 6060px;}
+	header .bungkus  {margin-left:2300px;}
+	.spanduk .banner img {width: 6060px;}
+	
+	.spanduk .caption {margin-left: 2400px}
+	.spanduk .formulir {margin-left: 2500px; margin-right: 2500;}
+	
+	.tulisan {text-align: center;margin-top: 100px; width: 6060px;}
+	
+	.bungkusan2 {width: 6060px;}
+	.bungkusan2 .down2 {margin-left: 2300px;}
+	
+	.bungkusan3 {width: 6060px;}
+	.bungkusan3 .foto {margin-left: 2300px;}
+	
+	.bungkusan4 {width: 6060px;}
+	.bungkusan4 .service {margin-left: 2300px;margin-right: 2300px;}
+	
+	.penjelasan {margin-left: 2300px;margin-right: 2300px;}
+	.bungkusan5 iframe {width: 6060px;}
+	
+	.bungkusan6 {width: 6060px;}
+	.bungkusan6 .harga {margin-left: 2500px; margin-right: 2500px;}
+	
+	.bungkusan7 {width: 6060px;}
+	
+	.bungkusan8 {margin-left: 2500px; margin-right: 2500px;}
+	
+	.telapak {width: 6060px;}
+	.maps iframe {width: 6060px;}
+}
